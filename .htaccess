@@ -1,0 +1,12 @@
+RewriteEngine On
+
+#OUTER PAGE
+RewriteRule ^sign-in\.html$ login.php [NC]
+RewriteRule ^jsssess(.*)/student-list\.html$ index.php?p=studentlist&jsspass=$1 [NC]
+RewriteRule ^jsssess(.*)/add-student\.html$ index.php?p=studentform&jsspass=$1 [NC]
+RewriteRule ^jsssess(.*)/edit-student\.html/(.*)$ index.php?p=studentform&jsspass=$1&studentid=$2 [NC]
+RewriteRule ^jsssess(.*)/sign-out\.html$ logout.php?jsspass=$1 [NC]
+
+#INNER PAGE
+RewriteRule ^security/login\.html$ security.php?p=login [NC]
+RewriteRule ^jsssess(.*)/security/form-student\.html$ security.php?p=studentform&jsspass=$1 [NC]

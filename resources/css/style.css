@@ -1,0 +1,163 @@
+body.login
+{
+    background: url(../images/back.gif);-ms-flex-align: center;
+    align-items: center;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 100vh;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+body
+{
+    background: url(../images/back.gif);-ms-flex-align: center;
+}
+.wrapper
+{
+    padding: 1% 4%;
+}
+.table-wrapper
+{
+    box-shadow: 0 0 5px #00f;
+    backdrop-filter: blur(3px);
+    padding: 4%;
+    background: rgba(0,0,0,0.7);
+}
+.tablelist
+{
+    border: 1px solid #00f;
+    color: #00f;
+}
+.form-wrapper
+{
+    box-shadow: 0 0 5px #00f;
+    backdrop-filter: blur(3px);
+    padding: 4%;
+    background: rgba(0,0,0,0.7);
+}
+.paginate_button
+{
+    border: 1px solid #00f;
+    padding: 1%;
+    text-decoration: none;
+    color: #00f;
+    cursor: pointer;
+}
+.paginate_button.current
+{
+    background:#00f;
+    padding: 1%;
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+#tablelist_wrapper
+{
+    color: #00f;
+}
+div.dataTables_filter input
+{
+    border: 1px solid #00f;
+    color: #00f;
+    background: transparent;
+    outline: none;
+}
+div.dataTables_length select
+{
+    color:#00f;
+    border: 1px solid #00f;
+    background: transparent;
+}
+.menulink
+{
+    background-color: #000;
+    color: #00f;
+    border: 1px solid #00f;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+}
+.menulink:hover
+{
+    background-color: #00f;
+    color: #000;
+}
+.fieldtext
+{
+    color: #00f;
+    text-align: center;
+}
+.iconval
+{
+    color: #00f;
+    text-decoration: none;
+}
+.fieldval
+{
+    border: 1px solid #00f;
+    background: transparent;
+    color: #00f;
+    outline: none;
+}
+.fieldval:focus
+{
+    background-color: #000;
+    border: 1px solid #00f;
+    color: #00f;
+    outline: none;
+}
+.select2-dropdown
+{
+    background: #000 !important;
+    border: 1px solid #00f !important;
+    color: #00f !important;
+}
+select options
+{
+    background: #000 !important;
+    border: 1px solid #00f !important;
+    color: #00f !important;
+}
+.select2-selection
+{
+    border: 1px solid #00f !important;
+    background: transparent !important;
+}
+.select2-search__field::-webkit-input-placeholder,
+.select2-search__field::placeholder
+{
+    color: #00f !important;
+}
+.select2-selection__choice
+{
+    background: #00f !important;
+    color: #000 !important;
+    border: none !important;
+}
+.select2-selection__choice span
+{
+    color: #000 !important;
+}
+.fieldval::placeholder
+{
+    color: #00f;
+}
+.login-box
+{
+    width: 360px
+}
+div.card
+{
+    background: rgba(0,0,0,0.5);
+    backdrop-filter: blur(3px);
+    box-shadow: 0 0 5px #00f;
+}
+.header-container
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
